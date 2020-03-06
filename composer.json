@@ -1,0 +1,30 @@
+{
+  "name": "oihso/php-okei-selector",
+  "type": "library",
+  "version": "1.0.0",
+  "keywords": ["php", "okei"],
+  "description": "PHP класс, позволяющий получить коды и значения общероссийского классификатора единиц измерения (ОКЕИ)",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "homepage": "https://github.com/Oihso/PHP-OKEI-Selector",
+  "authors": [
+    {
+      "name": "Ivan Amelin",
+      "email": "ia@rwaps.com"
+    }
+  ],
+  "require": {
+    "php": "^7.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "Oihso\\OKEI\\": "./src/"
+    }
+  },
+  "funding": [
+    {
+      "type": "other",
+      "url": "https://paypal.me/busterix"
+    }
+  ]
+}
